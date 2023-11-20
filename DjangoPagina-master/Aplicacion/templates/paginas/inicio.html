@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+{% block titulo %} Inicio {% endblock %}
+{% block contenido %} 
+<div class="row align-items-md-stretch">
+    <div class="col-md-6">
+        <div class="h-100 p-5 text-white bg-dark border rounded-3">
+            <h2>Bienvenido a lodging</h2>
+            
+            <p>En nuestro hotel te brindamos exelentes servicios los cuales demuestran que la prioridad
+                es que estes comodo y te sientas como en tu casa 
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div
+            class="h-100 p-5 bg-dark border rounded-3">
+            <h2>Dato curioso</h2>
+            <p>En nuestro hotel te brindamos todo de calidad ya que nos encanta que estes agusto mientras estas en nuestras instalaciones</p>
+            <button class="btn Swap the background-color utility and add a `.text-*` color utility to mix up the jumbotron look. Then,
+                mix and match with additional component themes and more." type="button">Example button</button>
+        </div>
+    </div>
+</div>
+<style>
+    body{
+        background-color: rgb(106, 109, 108);
+    }
+    h2 {
+        color: rgb(5, 71, 172); 
+    }
+    p{
+        color:white
+    }
+</style>
+{% endblock %}
