@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-<!-- <link rel="stylesheet" href="{{ asset('css/users.css') }}">  -->
+<link rel="stylesheet" href="{{ asset('css/users.css') }}">
 <a href="{{ route('user.index') }}">REGRESAR</a>
 <form method="post" action="{{ route('user.store') }}" class="my-form">
 

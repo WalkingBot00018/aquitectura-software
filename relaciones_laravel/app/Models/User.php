@@ -1,7 +1,8 @@
 <?php
 namespace App\Models;
 use App\models\roles;
-use App\models\clientes;
+use App\models\Customer;
+use App\models\Employess;
 
 use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
@@ -31,7 +32,12 @@ class User extends Authenticatable
         return $this->belongsTo(roles::class, 'id_rol', 'id_rol');
     }
     public function clientes(){
-        return $this->hasMany(clientes::class, 'id_cliente', 'id');
+        return $this->hasMany(Customer::class, 'id_cliente', 'id');
+    }
+
+
+    public function employess(){
+        return $this->hasMany(Employess::class, 'id', 'id');
     }
     /**
      * The attributes that should be hidden for serialization.

@@ -4,5 +4,5 @@
     
     <a href="{{ route('role.index') }}">Volver al Listado</a>
 @else
-    <p>Usuario no encontrado</p>
+    <p>Rol no encontrado</p>
 @endif

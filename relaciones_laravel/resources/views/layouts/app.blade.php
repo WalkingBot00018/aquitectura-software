@@ -14,9 +14,12 @@
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
       <a class="nav-item nav-link active" href="{{ asset('/') }}">INICIO <span class="sr-only"></span></a>
-      <a class="nav-item nav-link" href="{{ asset('/usuarios') }}">USERS</a>
       <a class="nav-item nav-link" href="{{ asset('/rol') }}">ROLES</a>
+      <a class="nav-item nav-link" href="{{ asset('/usuarios') }}">USERS</a>
       <a class="nav-item nav-link" href="{{ asset('/cliente') }}">CLIENTES</a>
+      <a class="nav-item nav-link" href="{{ asset('/reservas') }}">RESERVA</a>
+      <a class="nav-item nav-link" href="{{ asset('/pagomet') }}">METODO PAGO</a>
+      <a class="nav-item nav-link" href="{{ asset('/factura') }}">FACTURACION</a>
       <a class="nav-item nav-link disabled" href="#">Disabled</a>
     </div>
   </div>

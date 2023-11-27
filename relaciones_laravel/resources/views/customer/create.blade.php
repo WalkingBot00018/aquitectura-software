@@ -2,8 +2,8 @@
 
 @section('content')
 <link rel="stylesheet" href="{{ asset('css/cliente.css') }}"> 
-<a href="{{ route('clientes.index') }}" class="btn btn-secondary">regresar</a>
-<form method="post" action="{{ route('clientes.store') }}">
+<a href="{{ route('customer.index') }}" class="btn btn-secondary">regresar</a>
+<form method="post" action="{{ route('customer.store') }}">
 
     @csrf
     

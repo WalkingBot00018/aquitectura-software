@@ -2,6 +2,7 @@
 <form method="POST" action="{{ route('user.update', $users->id) }}">
     @csrf
     @method('PUT')
+    
     <label for="nro_doc">Número de Documento</label>
     <input type="text" name="nro_doc" value="{{ $users->nro_doc }}">
     <label for="nombre_usuario">Nombre de Usuario</label>
